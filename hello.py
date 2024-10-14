@@ -3,7 +3,7 @@ import os
 
 print("Hello!")
 #load_dotenv()  # .envファイルを読み込む
-token = os.environ.get('DISCORD_TOKEN')
+token = os.environ.get('KOYEB_REGION')
 
 print(f"token:{token}")
 print(token)
