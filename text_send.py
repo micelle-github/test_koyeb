@@ -18,12 +18,11 @@ async def on_message(message):
 #テキスト送信
     if message.content == 'うづ':
         await message.channel.send("🤗")
-        await message.channel.send(token)
-        await message.channel.send(type(token))
+
 
 #画像表示　(同一ディレクトリ内参照)
-    elif message.content == '画像':
-        await message.channel.send(file=discord.File('image.jpg'))
+#    elif message.content == '画像':
+#        await message.channel.send(file=discord.File('image.jpg'))
 
 
 
