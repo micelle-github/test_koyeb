@@ -15,7 +15,7 @@ COPY text_send.py .
 #RUN bash -c "source .env && export"
 
 
-CMD ["python", ".hello.py"]
+CMD ["python", "hello.py"]
 
 
 
