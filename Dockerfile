@@ -8,13 +8,14 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY .env .
 COPY hello.py .
+COPY test.py .
 COPY text_send.py .
 
-RUN apt-get update && apt-get install -y bash
-RUN bash -c "source .env && export"
+#RUN apt-get update && apt-get install -y bash
+#RUN bash -c "source .env && export"
 
 
-CMD ["python", "./text_send.py"]
+CMD ["python", "./hello_send.py"]
 
 
 
