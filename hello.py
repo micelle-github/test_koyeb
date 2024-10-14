@@ -1,8 +1,8 @@
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 print("Hello!")
-load_dotenv()  # .envファイルを読み込む
+#load_dotenv()  # .envファイルを読み込む
 token = os.getenv('DISCORD_TOKEN')
 
 print(f"token:{token}")
